@@ -8,7 +8,7 @@
 
 ## To run in background
 ### Start
-`screen -d -m npm run dev`
+`screen -d -m npm run start`
 
 ### Stop
 `screen -ls` (to get process id)
