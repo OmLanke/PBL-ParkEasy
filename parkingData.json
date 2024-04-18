@@ -1,0 +1,37 @@
+[
+  {
+    "slot": 1,
+    "occupied": true,
+    "latitude": null,
+    "longitude": null,
+    "reserved_until": null
+  },
+  {
+    "slot": 2,
+    "occupied": true,
+    "latitude": null,
+    "longitude": null,
+    "reserved_until": "2024-04-18T07:55:46.239Z"
+  },
+  {
+    "slot": 3,
+    "occupied": true,
+    "latitude": null,
+    "longitude": null,
+    "reserved_until": "2024-04-18T07:58:13.906Z"
+  },
+  {
+    "slot": 4,
+    "occupied": true,
+    "latitude": null,
+    "longitude": null,
+    "reserved_until": "2024-04-16T18:40:18.529Z"
+  },
+  {
+    "slot": 5,
+    "occupied": true,
+    "latitude": null,
+    "longitude": null,
+    "reserved_until": "2024-04-16T18:40:21.940Z"
+  }
+]
