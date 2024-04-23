@@ -1,37 +1,37 @@
 [
   {
     "slot": 1,
-    "occupied": true,
+    "occupied": false,
     "latitude": null,
     "longitude": null,
-    "reserved_until": null
+    "reserved_until": "2024-04-23T05:22:52.129Z"
   },
   {
     "slot": 2,
-    "occupied": true,
+    "occupied": false,
     "latitude": null,
     "longitude": null,
-    "reserved_until": "2024-04-18T07:55:46.239Z"
+    "reserved_until": "2024-04-23T05:23:11.433Z"
   },
   {
     "slot": 3,
     "occupied": true,
     "latitude": null,
     "longitude": null,
-    "reserved_until": "2024-04-18T07:58:13.906Z"
+    "reserved_until": "2024-04-23T05:07:07.525Z"
   },
   {
     "slot": 4,
-    "occupied": true,
+    "occupied": false,
     "latitude": null,
     "longitude": null,
-    "reserved_until": "2024-04-16T18:40:18.529Z"
+    "reserved_until": "2024-04-23T05:23:29.809Z"
   },
   {
     "slot": 5,
     "occupied": true,
     "latitude": null,
     "longitude": null,
-    "reserved_until": "2024-04-16T18:40:21.940Z"
+    "reserved_until": "2024-04-23T05:30:55.071Z"
   }
 ]
