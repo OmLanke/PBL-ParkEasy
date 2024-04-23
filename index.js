@@ -121,6 +121,24 @@ app.get("/slot/:slot/reserve", (req, res) => {
   }
 });
 
+// reset all reservations
+app.get("/reset", (req, res) => {
+  parkingData.forEach((slot) => {
+    slot.reserved_until = null;
+  });
+  // write to json file
+  fs.writeFile(dataFilePath, JSON.stringify(parkingData, null, 2), (err) => {
+    if (err) {
+      console.error("Error saving parking data:", err);
+      res.sendStatus(500);
+    } else {
+      res.sendStatus(200);
+    }
+  }
+  );
+}
+);
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
